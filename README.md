@@ -4,45 +4,57 @@
 💻 Passionate about Infrastructure as Code, Automation, and Cloud Platforms  
 ☁️ Kubernetes | Terraform | GitHub Actions | AWS | CI/CD  
 
----
+## 📬 How to Reach Me
 
-## 🔥 About Me
-    
-- 🌱 Currently working on Kubernetes, CI/CD pipelines, and platform engineering.
-- 📌 Interested in **GitOps, Cloud Security, and Infrastructure Automation**.
-- 🛠️ Always exploring **new DevOps tools and improving developer workflows**.
+- ✉️ **Email**: ammar@example.com
+- 💼 **LinkedIn**: [ammarlakis](https://www.linkedin.com/in/ammarlakis/)
+- 🌍 **Website**: [ammarlakis.com](https://ammarlakis.com)
+- 🐦 **Twitter**: [@ammarlakis](https://twitter.com/ammarlakis)
 
-📫 **Let's Connect!**  
+## 🚀 Featured Projects
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ammarlakis/) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/ammarlakis)
+### Platform Engineering
+- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
+- **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
+- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
+- **[gitsops-demo](https://github.com/ammarlakis/gitsops-demo)** - Demo for https://github.com/ammarlakis/gitsops
 
----
+### Terraform
+- **[terraform-aws-vpc](https://github.com/ammarlakis/terraform-aws-vpc)** - Terraform AWS VPC module
+- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
+- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
+- **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
+- **[terraform-on-demand-trigger-demo](https://github.com/ammarlakis/terraform-on-demand-trigger-demo)** - <no value>
+- **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 
-## 🚀 Top Projects
+### GitHub Actions
+- **[action-ajv](https://github.com/ammarlakis/action-ajv)** - GitHub action for running Ajv JSON schema validator.
+- **[action-eks-latest-version](https://github.com/ammarlakis/action-eks-latest-version)** - Get the latest version of eks
+- **[action-terraform-get-output](https://github.com/ammarlakis/action-terraform-get-output)** - GitHub action for getting terraform output
+- **[action-gomplate](https://github.com/ammarlakis/action-gomplate)** - GitHub action for running gomplate cli.
 
-### 🏠 Home Automation
-- **[Home Assistant Helm Chart](https://github.com/ammarlakis/home-assistant-chart)** - Deploy Home Assistant on Kubernetes using Helm.
-- **[Zigbee2MQTT Helm Chart](https://github.com/ammarlakis/zigbee2mqtt-chart)** - A Helm Chart for deploying Zigbee2MQTT to Kubernetes.
+### Helm
+- **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
+- **[zigbee2mqtt-chart](https://github.com/ammarlakis/zigbee2mqtt-chart)** - A Helm Chart for deploying Zigbee2MQTT to kubernetes.
+- **[helm-charts](https://github.com/ammarlakis/helm-charts)** - Helm Charts Repository
 
-### ⚙️ Infrastructure & GitHub Automation
-- **[GitHub IAC](https://github.com/ammarlakis/github-iac)** - Manage GitHub repositories, teams, and permissions using Terraform.
-- **[AWS Org IAC](https://github.com/ammarlakis/aws-org-iac)** - Manage AWS accounts and organizations using Terraform.
-- **[GitSOps](https://github.com/ammarlakis/gitsops)** - GitSops secrets management system using SOPS and Git.
+### Smart Home Automation
+- **[zigbee2mqtt-chart](https://github.com/ammarlakis/zigbee2mqtt-chart)** - A Helm Chart for deploying Zigbee2MQTT to kubernetes.
+- **[home-assistant-chart](https://github.com/ammarlakis/home-assistant-chart)** - A Helm Chart for deploying Home Assistant to kubernetes.
 
-### 🔧 GitHub Actions & CI/CD
-- **[Action Gomplate](https://github.com/ammarlakis/action-gomplate)** - GitHub Action for running `gomplate` CLI.
-- **[Action AJV](https://github.com/ammarlakis/action-ajv)** - GitHub Action for validating JSON schemas using AJV.
-- **[Action Terraform Get Output](https://github.com/ammarlakis/action-terraform-get-output)** - Fetch Terraform outputs in GitHub Actions workflows.
-- **[GitHub Actions Utils](https://github.com/ammarlakis/github-actions-utils)** - Utility functions for GitHub Actions.
+### Obsidian
+- **[obsidian-system-job-tracker](https://github.com/ammarlakis/obsidian-system-job-tracker)** - Obsidian job tracking system
+- **[obsidian-system-social-circle](https://github.com/ammarlakis/obsidian-system-social-circle)** - Obsidian social circle system
 
-### 🏗️ Terraform Modules
-- **[Terraform AWS VPC](https://github.com/ammarlakis/terraform-aws-vpc)** - A Terraform module to provision AWS VPC.
-- **[Terraform AWS EKS](https://github.com/ammarlakis/terraform-aws-eks)** - A Terraform module to deploy EKS clusters.
-- **[Terraform Project](https://github.com/ammarlakis/terraform-project)** - Example of a structured Terraform project.
-
----
 
 ## 📊 GitHub Stats
 
-![Ammar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ammarlakis&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ammarlakis&layout=compact&theme=radical)  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ammarlakis&theme=radical&card_width=600px&&layout=compact)](https://git.io/streak-stats)
+
+![Ammar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px&hide_title=true&hide_rank=true)  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px)
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+# Hi there, I'm Ammar 👋
+
+🚀 **DevOps Engineer | Platform Engineer | Cloud Enthusiast**  
+💻 Passionate about Infrastructure as Code, Automation, and Cloud Platforms  
+☁️ Kubernetes | Terraform | GitHub Actions | AWS | CI/CD  
+
+## 📬 How to Reach Me
+
+- ✉️ **Email**: ammar@example.com
+- 💼 **LinkedIn**: [ammarlakis](https://www.linkedin.com/in/ammarlakis/)
+- 🌍 **Website**: [ammarlakis.com](https://ammarlakis.com)
+- 🐦 **Twitter**: [@ammarlakis](https://twitter.com/ammarlakis)
+
+## 🚀 Featured Projects
+
+### Platform Engineering
+{{- $tag := "platform-engineering" }}
+{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+{{- range $repos }}
+  {{- if (coll.Has .topics $tag) }}
+- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
+  {{- end }}
+{{- end }}
+
+### Terraform
+{{- $tag := "terraform" }}
+{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+{{- range $repos }}
+  {{- if (coll.Has .topics $tag) }}
+- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
+  {{- end }}
+{{- end }}
+
+### GitHub Actions
+{{- $tag := "actions" }}
+{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+{{- range $repos }}
+  {{- if (coll.Has .topics $tag) }}
+- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
+  {{- end }}
+{{- end }}
+
+### Helm
+{{- $tag := "helm" }}
+{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+{{- range $repos }}
+  {{- if (coll.Has .topics $tag) }}
+- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
+  {{- end }}
+{{- end }}
+
+### Smart Home Automation
+{{- $tag := "home-automation" }}
+{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+{{- range $repos }}
+  {{- if (coll.Has .topics $tag) }}
+- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
+  {{- end }}
+{{- end }}
+
+### Obsidian
+{{- $tag := "obsidian" }}
+{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+{{- range $repos }}
+  {{- if (coll.Has .topics $tag) }}
+- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
+  {{- end }}
+{{- end }}
+
+
+## 📊 GitHub Stats
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=ammarlakis&theme=radical&card_width=600px&&layout=compact)](https://git.io/streak-stats)
+
+![Ammar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px&hide_title=true&hide_rank=true)  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px)
+
+{{/* //## ✍️ Recent Blog Posts */}}
+
+{{/*{{- $feed := (datasource "rss" "https://ammarlakis.com/rss.xml") }}*/}}
+{{/*{{- range $feed.items | slice 0 5 }}*/}}
+{{/*- **[{{ .title }}]({{ .link }})** - {{ .description | html }}*/}}
+{{/*{{- end }}*/}}
