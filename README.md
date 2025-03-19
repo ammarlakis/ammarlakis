@@ -6,7 +6,6 @@
 
 ## 📬 How to Reach Me
 
-- ✉️ **Email**: ammar@example.com
 - 💼 **LinkedIn**: [ammarlakis](https://www.linkedin.com/in/ammarlakis/)
 - 🌍 **Website**: [ammarlakis.com](https://ammarlakis.com)
 - 🐦 **Twitter**: [@ammarlakis](https://twitter.com/ammarlakis)
@@ -14,16 +13,17 @@
 ## 🚀 Featured Projects
 
 ### Platform Engineering
+- **[gitsops](https://github.com/ammarlakis/gitsops)** - GitOps secrets management system using sops and git.
+- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
-- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[gitsops-demo](https://github.com/ammarlakis/gitsops-demo)** - Demo for https://github.com/ammarlakis/gitsops
 
 ### Terraform
 - **[terraform-aws-vpc](https://github.com/ammarlakis/terraform-aws-vpc)** - Terraform AWS VPC module
-- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
+- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[terraform-on-demand-trigger-demo](https://github.com/ammarlakis/terraform-on-demand-trigger-demo)** - <no value>
 - **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 
