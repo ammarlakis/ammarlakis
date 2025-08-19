@@ -29,7 +29,6 @@
 
 ### GitHub Actions
 - **[action-ajv](https://github.com/ammarlakis/action-ajv)** - GitHub action for running Ajv JSON schema validator.
-- **[action-git](https://github.com/ammarlakis/action-git)** - GitHub action for common git operations in CI/CD.
 - **[action-eks-latest-version](https://github.com/ammarlakis/action-eks-latest-version)** - Get the latest version of eks
 - **[action-terraform-get-output](https://github.com/ammarlakis/action-terraform-get-output)** - GitHub action for getting terraform output
 - **[action-gomplate](https://github.com/ammarlakis/action-gomplate)** - GitHub action for running gomplate cli.
@@ -37,7 +36,6 @@
 ### Helm
 - **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
 - **[zigbee2mqtt-chart](https://github.com/ammarlakis/zigbee2mqtt-chart)** - A Helm Chart for deploying Zigbee2MQTT to kubernetes.
-- **[paperless-ngx-helm-chart](https://github.com/ammarlakis/paperless-ngx-helm-chart)** - Paperless-ngx Helm Chart
 - **[helm-charts](https://github.com/ammarlakis/helm-charts)** - Helm Charts Repository
 
 ### Smart Home Automation
