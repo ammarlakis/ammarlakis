@@ -12,60 +12,31 @@
 
 ## 🚀 Featured Projects
 
-### Platform Engineering
-{{- $tag := "platform-engineering" }}
-{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+{{- $repos := ((datasource "github").items | toJSON | jsonArray) }}
+{{- $allTags := (coll.Slice "platform-engineering" "terraform" "actions" "helm" "home-automation" "obsidian") }}
+{{- $labelOverrides := (dict "actions" "GitHub Actions") }}
+
+{{- range $t := $allTags }}
+{{- $heading := ($t | strings.ReplaceAll "-" " " | title) }}
+### {{ default $heading (index $labelOverrides $t) }}
 {{- range $repos }}
-  {{- if (coll.Has .topics $tag) }}
+  {{- if (coll.Has .topics $t) }}
 - **[{{ .name }}]({{ .html_url }})** - {{ .description }}
   {{- end }}
 {{- end }}
-
-### Terraform
-{{- $tag := "terraform" }}
-{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
-{{- range $repos }}
-  {{- if (coll.Has .topics $tag) }}
-- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
-  {{- end }}
 {{- end }}
 
-### GitHub Actions
-{{- $tag := "actions" }}
-{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
+### Others
 {{- range $repos }}
-  {{- if (coll.Has .topics $tag) }}
-- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
+  {{- $r := . }}
+  {{- $hasKnown := false }}
+  {{- range $t := $allTags }}
+    {{- if (coll.Has $r.topics $t) }}{{ $hasKnown = true }}{{ end }}
+  {{- end }}
+  {{- if not $hasKnown }}
+- **[{{ $r.name }}]({{ $r.html_url }})** - {{ $r.description }}
   {{- end }}
 {{- end }}
-
-### Helm
-{{- $tag := "helm" }}
-{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
-{{- range $repos }}
-  {{- if (coll.Has .topics $tag) }}
-- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
-  {{- end }}
-{{- end }}
-
-### Smart Home Automation
-{{- $tag := "home-automation" }}
-{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
-{{- range $repos }}
-  {{- if (coll.Has .topics $tag) }}
-- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
-  {{- end }}
-{{- end }}
-
-### Obsidian
-{{- $tag := "obsidian" }}
-{{- $repos := ((datasource "github").items | toJSON  | jsonArray) }}
-{{- range $repos }}
-  {{- if (coll.Has .topics $tag) }}
-- **[{{ .name }}]({{ .html_url }})** - {{ .description }}
-  {{- end }}
-{{- end }}
-
 
 ## 📊 GitHub Stats
 
@@ -74,6 +45,6 @@
 {{/* //## ✍️ Recent Blog Posts */}}
 
 {{/*{{- $feed := (datasource "rss" "https://ammarlakis.com/rss.xml") }}*/}}
-{{/*{{- range $feed.items | slice 0 5 }}*/}}
+{{/*{{- range $feed.items | coll.Slice 0 5 }}*/}}
 {{/*- **[{{ .title }}]({{ .link }})** - {{ .description | html }}*/}}
 {{/*{{- end }}*/}}
