@@ -47,8 +47,9 @@
 
 ![Ammar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px&hide_title=true&hide_rank=true)  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px)
 
-
-
-
-
-
+## ✍️ Recent Blog Posts
+- **[My Favorite Interview Question as an Interviewee](https://ammarlakis.com/favorite-question-as-interviewee/)**
+- **[Terraform in the Era of Platform Engineering](https://ammarlakis.com/terraform-github-platform/)**
+- **[Managing Secrets in Git with GitSOPS: A Secure and Simple Approach](https://ammarlakis.com/secrets-management/)**
+- **[Ramadan Smart Home](https://ammarlakis.com/homeassistant-ramadan/)**
+- **[Bypassing the Google Play Store Ban](https://ammarlakis.com/bypassing-google-ban/)**

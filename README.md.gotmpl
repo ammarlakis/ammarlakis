@@ -42,9 +42,8 @@
 
 ![Ammar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px&hide_title=true&hide_rank=true)  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px)
 
-{{/* //## ✍️ Recent Blog Posts */}}
+## ✍️ Recent Blog Posts
 
-{{/*{{- $feed := (datasource "rss" "https://ammarlakis.com/rss.xml") }}*/}}
-{{/*{{- range $feed.items | coll.Slice 0 5 }}*/}}
-{{/*- **[{{ .title }}]({{ .link }})** - {{ .description | html }}*/}}
-{{/*{{- end }}*/}}
+{{- range coll.GoSlice (datasource "ammarlakis.com").items 0 5 }}
+- **[{{ .title }}]({{ .url }})**
+{{- end }}
