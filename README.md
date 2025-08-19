@@ -14,21 +14,22 @@
 
 ### Platform Engineering
 - **[gitsops](https://github.com/ammarlakis/gitsops)** - GitOps secrets management system using sops and git.
-- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
-- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
+- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
+- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[gitsops-demo](https://github.com/ammarlakis/gitsops-demo)** - Demo for https://github.com/ammarlakis/gitsops
 
 ### Terraform
+- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
+- **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 - **[terraform-aws-vpc](https://github.com/ammarlakis/terraform-aws-vpc)** - Terraform AWS VPC module
 - **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
-- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[terraform-on-demand-trigger-demo](https://github.com/ammarlakis/terraform-on-demand-trigger-demo)** - <no value>
-- **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 
 ### GitHub Actions
 - **[action-ajv](https://github.com/ammarlakis/action-ajv)** - GitHub action for running Ajv JSON schema validator.
+- **[action-git](https://github.com/ammarlakis/action-git)** - GitHub action for common git operations in CI/CD.
 - **[action-eks-latest-version](https://github.com/ammarlakis/action-eks-latest-version)** - Get the latest version of eks
 - **[action-terraform-get-output](https://github.com/ammarlakis/action-terraform-get-output)** - GitHub action for getting terraform output
 - **[action-gomplate](https://github.com/ammarlakis/action-gomplate)** - GitHub action for running gomplate cli.
@@ -36,6 +37,7 @@
 ### Helm
 - **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
 - **[zigbee2mqtt-chart](https://github.com/ammarlakis/zigbee2mqtt-chart)** - A Helm Chart for deploying Zigbee2MQTT to kubernetes.
+- **[paperless-ngx-helm-chart](https://github.com/ammarlakis/paperless-ngx-helm-chart)** - Paperless-ngx Helm Chart
 - **[helm-charts](https://github.com/ammarlakis/helm-charts)** - Helm Charts Repository
 
 ### Smart Home Automation
