@@ -18,8 +18,8 @@
 - **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[gitsops-demo](https://github.com/ammarlakis/gitsops-demo)** - Demo for https://github.com/ammarlakis/gitsops
 ### Terraform
-- **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 - **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
+- **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 - **[terraform-aws-vpc](https://github.com/ammarlakis/terraform-aws-vpc)** - Terraform AWS VPC module
 - **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
