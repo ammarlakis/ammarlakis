@@ -18,8 +18,8 @@
 - **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[gitsops-demo](https://github.com/ammarlakis/gitsops-demo)** - Demo for https://github.com/ammarlakis/gitsops
 ### Terraform
-- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
+- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[terraform-aws-vpc](https://github.com/ammarlakis/terraform-aws-vpc)** - Terraform AWS VPC module
 - **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
@@ -43,9 +43,6 @@
 ### Others
 - **[emails-domains-extractor](https://github.com/ammarlakis/emails-domains-extractor)** - CLI tool for extracting domains from your emails.
 
-## 📊 GitHub Stats
-
-![Ammar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px&hide_title=true&hide_rank=true)  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px)
 
 ## ✍️ Recent Blog Posts
 - **[My Favorite Interview Question as an Interviewee](https://ammarlakis.com/favorite-question-as-interviewee/)**
@@ -53,3 +50,8 @@
 - **[Managing Secrets in Git with GitSOPS: A Secure and Simple Approach](https://ammarlakis.com/secrets-management/)**
 - **[Ramadan Smart Home](https://ammarlakis.com/homeassistant-ramadan/)**
 - **[Bypassing the Google Play Store Ban](https://ammarlakis.com/bypassing-google-ban/)**
+
+
+## 📊 GitHub Stats
+
+![Ammar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px&hide_title=true&hide_rank=true)  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ammarlakis&layout=compact&theme=radical&card_width=300px&card_height=250px)
