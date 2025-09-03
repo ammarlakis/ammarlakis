@@ -42,6 +42,7 @@
 
 ### Others
 - **[emails-domains-extractor](https://github.com/ammarlakis/emails-domains-extractor)** - CLI tool for extracting domains from your emails.
+- **[whisper-ui](https://github.com/ammarlakis/whisper-ui)** - A GUI to run OpenAI Whisper transcription
 
 
 ## ✍️ Recent Blog Posts
