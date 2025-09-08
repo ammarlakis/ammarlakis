@@ -15,14 +15,14 @@
 - **[gitsops](https://github.com/ammarlakis/gitsops)** - GitOps secrets management system using sops and git.
 - **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
 - **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
-- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[gitsops-demo](https://github.com/ammarlakis/gitsops-demo)** - Demo for https://github.com/ammarlakis/gitsops
+- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 ### Terraform
 - **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 - **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 - **[terraform-aws-vpc](https://github.com/ammarlakis/terraform-aws-vpc)** - Terraform AWS VPC module
-- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
+- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
 - **[terraform-on-demand-trigger-demo](https://github.com/ammarlakis/terraform-on-demand-trigger-demo)** - <no value>
 ### GitHub Actions
 - **[action-ajv](https://github.com/ammarlakis/action-ajv)** - GitHub action for running Ajv JSON schema validator.
@@ -42,6 +42,7 @@
 
 ### Others
 - **[emails-domains-extractor](https://github.com/ammarlakis/emails-domains-extractor)** - CLI tool for extracting domains from your emails.
+- **[ansible-print-changes](https://github.com/ammarlakis/ansible-print-changes)** - Ansible plugin to print changed tasks.
 - **[whisper-ui](https://github.com/ammarlakis/whisper-ui)** - A GUI to run OpenAI Whisper transcription
 
 
