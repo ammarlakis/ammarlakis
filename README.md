@@ -12,22 +12,24 @@
 
 ## 🚀 Featured Projects
 ### Platform Engineering
-- **[gitsops](https://github.com/ammarlakis/gitsops)** - GitOps secrets management system using sops and git.
 - **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
-- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
+- **[gitsops](https://github.com/ammarlakis/gitsops)** - GitOps secrets management system using sops and git.
 - **[gitsops-demo](https://github.com/ammarlakis/gitsops-demo)** - Demo for https://github.com/ammarlakis/gitsops
 - **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
-### Terraform
-- **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
+- **[astrolabe-server](https://github.com/ammarlakis/astrolabe-server)** - Astrolabe Kubernetes state indexer
 - **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
+- **[astrolabe-grafana](https://github.com/ammarlakis/astrolabe-grafana)** - Astrolabe - Kubernetes resources topology visualization in Grafana
+### Terraform
 - **[terraform-aws-vpc](https://github.com/ammarlakis/terraform-aws-vpc)** - Terraform AWS VPC module
-- **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
-- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
+- **[terraform-aws-eks](https://github.com/ammarlakis/terraform-aws-eks)** - Terraform AWS EKS module
 - **[terraform-on-demand-trigger-demo](https://github.com/ammarlakis/terraform-on-demand-trigger-demo)** - <no value>
+- **[github-iac](https://github.com/ammarlakis/github-iac)** - A platform backend template for GitHub using terraform
+- **[terraform-project](https://github.com/ammarlakis/terraform-project)** - An example of infrastructure project using terraform
+- **[aws-org-iac](https://github.com/ammarlakis/aws-org-iac)** - Terraform code to manage aws accounts in an organization
 ### GitHub Actions
-- **[action-ajv](https://github.com/ammarlakis/action-ajv)** - GitHub action for running Ajv JSON schema validator.
 - **[action-eks-latest-version](https://github.com/ammarlakis/action-eks-latest-version)** - Get the latest version of eks
 - **[action-terraform-get-output](https://github.com/ammarlakis/action-terraform-get-output)** - GitHub action for getting terraform output
+- **[action-ajv](https://github.com/ammarlakis/action-ajv)** - GitHub action for running Ajv JSON schema validator.
 - **[action-gomplate](https://github.com/ammarlakis/action-gomplate)** - GitHub action for running gomplate cli.
 ### Helm
 - **[deployment-core](https://github.com/ammarlakis/deployment-core)** - An example project using Helmfile to implement GitOps principles.
